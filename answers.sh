@@ -47,3 +47,22 @@
 #    delete values from table whith condition
         DELETE from students WHERE name='Layal'
         
+
+14.     
+
+        SELECT employees.Name , companies.Name , companies.Date
+        from companies
+        INNER JOIN employees on employees.Company= companies.name
+
+
+
+15.    
+        SELECT employees.Name ,companies.Date
+        from companies
+
+        INNER JOIN employees on employees.Company= companies.name
+        WHERE date < 2000     
+
+16.
+
+        SELECT Company  FROM employees WHERE Role='Graphic Designer'
