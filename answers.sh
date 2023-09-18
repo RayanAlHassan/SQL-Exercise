@@ -66,3 +66,21 @@
 16.
 
         SELECT Company  FROM employees WHERE Role='Graphic Designer'
+
+
+18. 
+        select name ,max(Points) FROM students  
+
+19.     
+        SELECT avg(Points) FROM students
+
+20.
+        SELECT count(name)  FROM students WHERE Points = 500
+
+
+21.
+        SELECT name  FROM students WHERE name like ("%s%")
+
+22. 
+        SELECT *  FROM students ORDER by Points DESC
+
